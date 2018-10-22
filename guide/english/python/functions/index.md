@@ -44,6 +44,8 @@ multiply(3, 5)  # prints 15 to the console
 
 Functions are blocks of code that can be reused simply by calling the function. This enables simple, elegant code reuse without explicitly re-writing sections of code. This makes code both more readable, makes for easier debugging, and limits typing errors. 
 
+For example, let's say you have to check if a number is a prime n times. It's a better idea to use a function that you can call every time you need rather than writing the same code n times. It makes the code easier to read and debug.
+
 Functions in Python are created using the `def` keyword, followed by a function name and function parameters inside parentheses.
 
 A function always returns a value,The `return` keyword is used by the function to return a value, if you don't want to return any value, the default value `None` will returned. 
